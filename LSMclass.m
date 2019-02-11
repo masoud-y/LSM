@@ -297,6 +297,7 @@ function f = ddirac(x, sigma)
     f = f.*b;
 end
 
+
 function g = nbc(f)
     g = f;
     g(1,:)=f(3,:);

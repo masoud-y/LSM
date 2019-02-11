@@ -1,4 +1,4 @@
-classdef LSMObject <handle
+classdef LSMclass <handle
     %LSMObject constructor  
     %requires a list of images (full file paths), file type, and image resize rate 
     % LSMObject(listOfFiles,fileType,resizeRate)
